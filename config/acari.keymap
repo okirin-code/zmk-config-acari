@@ -20,10 +20,13 @@
                   ╰────────────╯ ╰────────────╯        */
 
 &mt {
-    quick-tap-ms = <100>;
-    global-quick-tap;
     flavor = "balanced";
-    tapping-term-ms = <200>;
+    retro-tap;
+};
+
+&lt {
+    flavor = "balanced";
+    retro-tap;
 };
 
 / {
@@ -160,7 +163,7 @@
 &none   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0
 &trans  &trans        &trans        &trans        &trans  &trans        &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans  &trans        &trans  &trans  &trans  &trans
-                      &tog 1        &kp NUMBER_1  &trans  &trans        &trans  &trans
+                      &to 13        &kp NUMBER_1  &trans  &trans        &trans  &trans
             >;
         };
 
@@ -260,6 +263,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        num {
+            bindings = <
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0
+&trans        &trans        &trans        &trans        &trans  &trans        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
+&trans        &trans        &trans        &trans        &trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+                            &trans        &trans        &trans  &trans        &kp N0        &kp PERIOD
             >;
         };
     };
