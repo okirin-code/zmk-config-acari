@@ -22,11 +22,13 @@
 &mt {
     flavor = "balanced";
     retro-tap;
+    require-prior-idle-ms = <120>;
 };
 
 &lt {
     flavor = "balanced";
     retro-tap;
+    require-prior-idle-ms = <120>;
 };
 
 / {
@@ -81,6 +83,7 @@
             tapping-term-ms = <120>;
             quick-tap-ms = <200>;
             retro-tap;
+            require-prior-idle-ms = <120>;
         };
     };
 
