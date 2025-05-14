@@ -101,10 +101,10 @@
 
         qwerty {
             bindings = <
-&lt 2 Q             &lt 3 W      &lt 4 E              &lt 5 R       &lt 6 T         &lt 7 Y         &lt 8 U       &lt 9 I     &lt 10 O             &lt 11 P
-&mt LEFT_CONTROL A  &mt LCTRL S  &mt LEFT_ALT D       &mt LSHIFT F  &mt LEFT_GUI G  &mt LEFT_GUI H  &mt LSHIFT J  &mt RALT K  &mt RIGHT_CONTROL L  &mt RIGHT_CONTROL SEMICOLON
-&mt LEFT_SHIFT Z    &kp X        &kp C                &kp V         &kp B           &kp N           &kp M         &kp COMMA   &kp PERIOD           &mt RSHIFT SLASH
-                                 &mt LEFT_ALT ESCAPE  &lt 13 TAB    &kp ENTER       &kp BSPC        &kp SPACE     &kp DELETE
+&lt 2 Q             &lt 3 W      &lt 4 E           &lt 5 R        &lt 6 T         &lt 7 Y         &lt 8 U       &lt 9 I       &lt 10 O             &lt 11 P
+&mt LEFT_CONTROL A  &mt LCTRL S  &mt LEFT_ALT D    &mt LSHIFT F   &mt LEFT_GUI G  &mt LEFT_GUI H  &mt LSHIFT J  &mt RALT K    &mt RIGHT_CONTROL L  &mt RIGHT_CONTROL SEMICOLON
+&mt LEFT_SHIFT Z    &kp X        &kp C             &kp V          &kp B           &kp N           &kp M         &kp COMMA     &kp PERIOD           &mt RSHIFT SLASH
+                                 &mt LEFT_ALT TAB  &lt 14 ESCAPE  &kp ENTER       &kp BSPC        &kp SPACE     &kp LEFT_GUI
             >;
         };
 
@@ -218,18 +218,18 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp N6         &kp N7    &kp UP_ARROW    &kp N9     &kp N0
+&kp F6  &kp F7  &kp F8  &kp F9   &kp F10  &kp PG_UP      &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
+&trans  &trans  &trans  &kp F11  &kp F12  &kp PAGE_DOWN  &trans    &trans          &trans     &trans
+                &trans  &trans   &trans   &trans         &trans    &kp DELETE
             >;
         };
 
         num {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0
-&trans        &trans        &trans        &trans        &trans  &trans        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
-&trans        &trans        &trans        &trans        &trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&trans        &trans        &trans        &trans        &trans  &trans        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp APOS
+&trans        &mo 13        &trans        &trans        &trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
                             &trans        &trans        &trans  &trans        &kp N0        &kp E
             >;
         };
