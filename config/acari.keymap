@@ -101,7 +101,7 @@
 
         qwerty {
             bindings = <
-&lt 3 Q             &lt 4 W      &lt 5 E           &lt 6 R       &lt 7 T         &lt 8 Y         &lt 9 U       &lt 10 I      &lt 11 O             &lt 12 P
+&lt 4 Q             &lt 5 W      &lt 5 E           &lt 6 R       &lt 7 T         &lt 8 Y         &lt 9 U       &lt 10 I      &lt 11 O             &lt 12 P
 &mt LEFT_CONTROL A  &mt LCTRL S  &mt LEFT_ALT D    &mt LSHIFT F  &mt LEFT_GUI G  &mt LEFT_GUI H  &mt LSHIFT J  &mt RALT K    &mt RIGHT_CONTROL L  &mt RIGHT_CONTROL SEMICOLON
 &mt LEFT_SHIFT Z    &kp X        &kp C             &kp V         &kp B           &kp N           &kp M         &kp COMMA     &kp PERIOD           &mt RSHIFT SLASH
                                  &mt LEFT_ALT TAB  &lt 2 ESCAPE  &kp ENTER       &kp BSPC        &kp SPACE     &kp LEFT_GUI
@@ -110,7 +110,7 @@
 
         rdvorak {
             bindings = <
-&lt 3 SINGLE_QUOTE        &lt 4 COMMA  &lt 5 PERIOD    &lt 6 P       &lt 7 Y         &lt 8 F         &lt 9 G       &lt 10 C    &lt 11 R             &lt 12 L
+&lt 4 SINGLE_QUOTE        &lt 5 COMMA  &lt 5 PERIOD    &lt 6 P       &lt 7 Y         &lt 8 F         &lt 9 G       &lt 10 C    &lt 11 R             &lt 12 L
 &mt LEFT_CONTROL A        &mt LCTRL O  &mt LEFT_ALT E  &mt LSHIFT U  &mt LEFT_GUI I  &mt LEFT_GUI D  &mt LSHIFT H  &mt RALT T  &mt RIGHT_CONTROL N  &mt RIGHT_CONTROL S
 &mt LEFT_SHIFT SEMICOLON  &kp Q        &kp J           &kp K         &kp X           &kp B           &kp M         &kp W       &kp V                &mt RSHIFT Z
                                        &trans          &trans        &trans          &trans          &trans        &trans
@@ -128,8 +128,8 @@
 
         q {
             bindings = <
-&none   &kp LS(N2)  &kp LS(N3)  &kp LS(N4)        &kp LS(N5)  &kp LS(N6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
-&trans  &trans      &trans      &trans            &trans      &trans      &trans            &trans      &trans      &trans
+&none   &kp LS(N2)  &kp LS(N3)  &kp LS(N4)        &kp LS(N5)  &kp LS(N6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp GRAVE
+&trans  &trans      &trans      &trans            &trans      &trans      &trans            &trans      &trans      &kp BACKSLASH
 &trans  &trans      &trans      &trans            &trans      &trans      &trans            &trans      &trans      &trans
                     &trans      &kp LS(NUMBER_1)  &trans      &trans      &kp LS(NUMBER_1)  &trans
             >;
@@ -137,16 +137,16 @@
 
         w {
             bindings = <
-&kp LS(N1)  &none   &kp LS(N3)  &kp LS(N4)        &kp LS(N5)  &kp LS(N6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+&kp LS(N1)  &none   &kp LS(N3)  &kp LS(N4)        &kp LS(N5)  &kp LS(N6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp RIGHT_BRACKET
 &trans      &trans  &trans      &trans            &trans      &trans      &trans            &trans      &trans      &trans
-&trans      &trans  &trans      &trans            &trans      &trans      &trans            &trans      &trans      &trans
+&trans      &trans  &trans      &trans            &trans      &kp UNDER   &kp PLUS          &kp MINUS   &kp EQUAL   &trans
                     &trans      &kp LS(NUMBER_2)  &trans      &trans      &kp LS(NUMBER_2)  &trans
             >;
         };
 
         e {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &none   &kp LS(N4)        &kp LS(N5)  &kp LS(N6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+&kp LS(N1)  &kp LS(N2)  &none   &kp LS(N4)        &kp LS(N5)  &kp LS(N6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LEFT_BRACKET
 &trans      &trans      &trans  &trans            &trans      &trans      &trans            &trans      &trans      &trans
 &trans      &trans      &trans  &trans            &trans      &trans      &trans            &trans      &trans      &trans
                         &trans  &kp LS(NUMBER_3)  &trans      &trans      &kp LS(NUMBER_3)  &trans
