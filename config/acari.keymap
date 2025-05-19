@@ -101,7 +101,7 @@
 
         qwerty {
             bindings = <
-&lt 4 Q             &lt 5 W      &lt 5 E           &lt 6 R       &lt 7 T         &lt 8 Y         &lt 9 U       &lt 10 I      &lt 11 O             &lt 12 P
+&lt 3 Q             &lt 4 W      &lt 5 E           &lt 6 R       &lt 7 T         &lt 8 Y         &lt 9 U       &lt 10 I      &lt 11 O             &lt 12 P
 &mt LEFT_CONTROL A  &mt LCTRL S  &mt LEFT_ALT D    &mt LSHIFT F  &mt LEFT_GUI G  &mt LEFT_GUI H  &mt LSHIFT J  &mt RALT K    &mt RIGHT_CONTROL L  &mt RIGHT_CONTROL SEMICOLON
 &mt LEFT_SHIFT Z    &kp X        &kp C             &kp V         &kp B           &kp N           &kp M         &kp COMMA     &kp PERIOD           &mt RSHIFT SLASH
                                  &mt LEFT_ALT TAB  &lt 2 ESCAPE  &kp ENTER       &kp BSPC        &kp SPACE     &kp LEFT_GUI
