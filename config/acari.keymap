@@ -120,99 +120,99 @@
         numsym {
             bindings = <
 &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
-&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
+&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp APOSTROPHE
 &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
-                        &trans      &trans      &trans      &trans      &tog 14     &trans
+                        &trans      &trans      &trans      &mo 13      &tog 14     &trans
             >;
         };
 
         q {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
-&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-&trans  &trans        &trans        &trans            &trans  &trans        &trans            &trans  &trans  &trans
-                      &trans        &kp LS(NUMBER_1)  &trans  &trans        &kp LS(NUMBER_1)  &trans
+&none   &kp LS(N2)  &kp LS(N3)  &kp LS(N4)        &kp LS(N5)  &kp LS(N6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+&trans  &trans      &trans      &trans            &trans      &trans      &trans            &trans      &trans      &trans
+&trans  &trans      &trans      &trans            &trans      &trans      &trans            &trans      &trans      &trans
+                    &trans      &kp LS(NUMBER_1)  &trans      &trans      &kp LS(NUMBER_1)  &trans
             >;
         };
 
         w {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
-&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-&trans  &trans        &trans        &trans            &trans  &trans        &trans            &trans  &trans  &trans
-                      &trans        &kp LS(NUMBER_1)  &trans  &trans        &kp LS(NUMBER_1)  &trans
+&kp LS(N1)  &none   &kp LS(N3)  &kp LS(N4)        &kp LS(N5)  &kp LS(N6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+&trans      &trans  &trans      &trans            &trans      &trans      &trans            &trans      &trans      &trans
+&trans      &trans  &trans      &trans            &trans      &trans      &trans            &trans      &trans      &trans
+                    &trans      &kp LS(NUMBER_2)  &trans      &trans      &kp LS(NUMBER_2)  &trans
             >;
         };
 
         e {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
-&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-&trans  &trans        &trans        &trans            &trans  &trans        &trans            &trans  &trans  &trans
-                      &trans        &kp LS(NUMBER_1)  &trans  &trans        &kp LS(NUMBER_1)  &trans
+&kp LS(N1)  &kp LS(N2)  &none   &kp LS(N4)        &kp LS(N5)  &kp LS(N6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+&trans      &trans      &trans  &trans            &trans      &trans      &trans            &trans      &trans      &trans
+&trans      &trans      &trans  &trans            &trans      &trans      &trans            &trans      &trans      &trans
+                        &trans  &kp LS(NUMBER_3)  &trans      &trans      &kp LS(NUMBER_3)  &trans
             >;
         };
 
         r {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
-&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-&trans  &trans        &trans        &trans            &trans  &trans        &trans            &trans  &trans  &trans
-                      &trans        &kp LS(NUMBER_1)  &trans  &trans        &kp LS(NUMBER_1)  &trans
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &none             &kp LS(N5)  &kp LS(N6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+&trans      &trans      &trans      &trans            &trans      &trans      &trans            &trans      &trans      &trans
+&trans      &trans      &trans      &trans            &trans      &trans      &trans            &trans      &trans      &trans
+                        &trans      &kp LS(NUMBER_4)  &trans      &trans      &kp LS(NUMBER_4)  &trans
             >;
         };
 
         t {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
-&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-&trans  &trans        &trans        &trans            &trans  &trans        &trans            &trans  &trans  &trans
-                      &trans        &kp LS(NUMBER_1)  &trans  &trans        &kp LS(NUMBER_1)  &trans
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &none   &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+&trans      &trans      &trans      &trans      &trans  &trans      &trans      &trans      &trans      &trans
+&trans      &trans      &trans      &trans      &trans  &trans      &trans      &trans      &trans      &trans
+                        &trans      &kp LS(N5)  &trans  &trans      &kp LS(N5)  &trans
             >;
         };
 
         y {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
-&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-&trans  &trans        &trans        &trans            &trans  &trans        &trans            &trans  &trans  &trans
-                      &trans        &kp LS(NUMBER_1)  &trans  &trans        &kp LS(NUMBER_1)  &trans
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)        &kp LS(N5)  &none   &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+&trans      &trans      &trans      &trans            &trans      &trans  &trans            &trans      &trans      &trans
+&trans      &trans      &trans      &trans            &trans      &trans  &trans            &trans      &trans      &trans
+                        &trans      &kp LS(NUMBER_6)  &trans      &trans  &kp LS(NUMBER_6)  &trans
             >;
         };
 
         u {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &none       &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-&trans  &trans        &trans        &trans            &trans  &trans        &trans            &trans  &trans  &trans
-                      &trans        &kp LS(NUMBER_1)  &trans  &trans        &kp LS(NUMBER_1)  &trans
+&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
+                        &trans      &kp LS(N7)  &trans      &trans      &kp LS(N7)  &trans
             >;
         };
 
         i {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
-&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-&trans  &trans        &trans        &trans            &trans  &trans        &trans            &trans  &trans  &trans
-                      &trans        &kp LS(NUMBER_1)  &trans  &trans        &kp LS(NUMBER_1)  &trans
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &none   &kp LS(N9)  &kp LS(N0)
+&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans      &trans
+&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans      &trans
+                        &trans      &kp LS(N8)  &trans      &trans      &kp LS(N8)  &trans
             >;
         };
 
         o {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
-&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-&trans  &trans        &trans        &trans            &trans  &trans        &trans            &trans  &trans  &trans
-                      &trans        &kp LS(NUMBER_1)  &trans  &trans        &kp LS(NUMBER_1)  &trans
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &none   &kp LS(N0)
+&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans
+&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans
+                        &trans      &kp LS(N9)  &trans      &trans      &kp LS(N9)  &trans
             >;
         };
 
         p {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &none
 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-&trans  &trans        &trans        &trans            &trans  &trans        &trans            &trans  &trans  &trans
-                      &trans        &kp LS(NUMBER_1)  &trans  &trans        &kp LS(NUMBER_1)  &trans
+&trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
+                        &trans      &kp LS(N0)  &trans      &trans      &kp LS(N0)  &trans
             >;
         };
 
