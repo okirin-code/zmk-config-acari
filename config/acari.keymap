@@ -237,7 +237,7 @@
         rqwerty {
             bindings = <
 &kp X     &kp COMMA  &kp D      &kp O           &kp K      &kp T       &kp F    &kp G  &kp S  &kp R
-&kp A     &kp SEMI   &kp H      &kp Y           &kp Y      &kp J       &kp C    &kp V  &kp P  &kp Z
+&kp A     &kp SEMI   &kp H      &kp Y           &kp U      &kp J       &kp C    &kp V  &kp P  &kp Z
 &kp FSLH  &kp B      &kp I      &kp DOT         &kp N      &kp L       &kp M    &kp W  &kp E  &kp LBKT
                      &kp SPACE  &kp LEFT_SHIFT  &kp LCTRL  &kp ESCAPE  &kp TAB  &to 0
             >;
