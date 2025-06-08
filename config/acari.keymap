@@ -108,7 +108,7 @@
             >;
         };
 
-        rdvorak {
+        dvorak {
             bindings = <
 &lt 4 SINGLE_QUOTE        &lt 5 COMMA  &lt 5 PERIOD    &lt 6 P       &lt 7 Y         &lt 8 F         &lt 9 G       &lt 10 C    &lt 11 R             &lt 12 L
 &mt LEFT_CONTROL A        &mt LCTRL O  &mt LEFT_ALT E  &mt LSHIFT U  &mt LEFT_GUI I  &mt LEFT_GUI D  &mt LSHIFT H  &mt RALT T  &mt RIGHT_CONTROL N  &mt RIGHT_CONTROL S
@@ -122,7 +122,7 @@
 &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp APOSTROPHE
 &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
-                        &trans      &trans      &trans      &mo 13      &tog 14     &trans
+                        &trans      &trans      &to 15      &mo 13      &sl 14      &trans
             >;
         };
 
@@ -227,10 +227,19 @@
 
         nav {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp N6         &kp N7    &kp UP_ARROW    &kp N9     &kp N0
-&kp F6  &kp F7  &kp F8  &kp F9   &kp F10  &kp PG_UP      &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
-&trans  &trans  &trans  &kp F11  &kp F12  &kp PAGE_DOWN  &trans    &trans          &trans     &trans
-                &trans  &trans   &trans   &trans         &trans    &kp DELETE
+&trans  &kp F1  &kp F2   &kp F3   &trans   &kp N6         &kp N7    &kp UP_ARROW    &kp N9     &kp N0
+&trans  &kp F4  &kp F5   &kp F6   &trans   &kp PG_UP      &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
+&trans  &kp F7  &kp F8   &kp F9   &trans   &kp PAGE_DOWN  &trans    &trans          &trans     &trans
+                &kp F10  &kp F11  &kp F12  &trans         &trans    &kp DELETE
+            >;
+        };
+
+        rqwerty {
+            bindings = <
+&kp X     &kp COMMA  &kp D      &kp O           &kp K      &kp T       &kp F    &kp G  &kp S  &kp R
+&kp A     &kp SEMI   &kp H      &kp Y           &kp Y      &kp J       &kp C    &kp V  &kp P  &kp Z
+&kp FSLH  &kp B      &kp I      &kp DOT         &kp N      &kp L       &kp M    &kp W  &kp E  &kp LBKT
+                     &kp SPACE  &kp LEFT_SHIFT  &kp LCTRL  &kp ESCAPE  &kp TAB  &to 0
             >;
         };
     };
